@@ -1,0 +1,92 @@
+[
+  {
+    "id": "sample_01",
+    "ad_copy": "Free shipping on every order. Save 35% today.",
+    "landing_page_text": "Shipping is calculated at checkout and starts at $9.99. Our prices start at $22.00. We do not offer free shipping.",
+    "expected": {
+      "Free shipping on every order": "CONTRADICTED",
+      "Save 35% today": "QUALIFIED"
+    }
+  },
+  {
+    "id": "sample_02",
+    "ad_copy": "Clinically tested for sensitive skin.",
+    "landing_page_text": "Dermatologist tested for sensitive skin. Results are suitable for dry skin. This formula is fragrance free and hypoallergenic.",
+    "expected": {
+      "Clinically tested for sensitive skin": "SUPPORTED",
+      "Dermatologist tested for sensitive skin": "SUPPORTED"
+    }
+  },
+  {
+    "id": "sample_03",
+    "ad_copy": "No monthly fees and instant approval.",
+    "landing_page_text": "We do not charge monthly service fees. An account requires a verification step and processing can take up to 48 hours.",
+    "expected": {
+      "No monthly fees": "SUPPORTED",
+      "Instant approval": "QUALIFIED"
+    }
+  },
+  {
+    "id": "sample_04",
+    "ad_copy": "30-day money-back guarantee.",
+    "landing_page_text": "Returns are accepted within 14 days for unused items. We offer a satisfaction guarantee on select products.",
+    "expected": {
+      "30-day money-back guarantee": "QUALIFIED",
+      "Returns are accepted within 14 days": "QUALIFIED"
+    }
+  },
+  {
+    "id": "sample_05",
+    "ad_copy": "Unlimited data included with every plan.",
+    "landing_page_text": "Our plans include a generous monthly data allowance. Higher usage may trigger throttling after the included data cap.",
+    "expected": {
+      "Unlimited data included with every plan": "CONTRADICTED",
+      "Generous monthly data allowance": "SUPPORTED"
+    }
+  },
+  {
+    "id": "sample_06",
+    "ad_copy": "Award-winning support for caregivers.",
+    "landing_page_text": "Our support team helps families find local resources. We are dedicated to better care coordination and wellness education.",
+    "expected": {
+      "Award-winning support for caregivers": "NOT_FOUND",
+      "Support team helps families find local resources": "SUPPORTED"
+    }
+  },
+  {
+    "id": "sample_07",
+    "ad_copy": "100% natural ingredients.",
+    "landing_page_text": "Our ingredients include coconut oil, aloe vera, and olive oil. We do not use synthetic fragrance or harsh detergents.",
+    "expected": {
+      "100% natural ingredients": "UNCERTAIN",
+      "Natural ingredients": "SUPPORTED"
+    }
+  },
+  {
+    "id": "sample_08",
+    "ad_copy": "Buy one, get one free.",
+    "landing_page_text": "Offer valid on selected skincare sets while supplies last. Some items may be excluded from the promotion.",
+    "expected": {
+      "Buy one, get one free": "QUALIFIED",
+      "Selected skincare sets while supplies last": "SUPPORTED"
+    }
+  },
+  {
+    "id": "sample_09",
+    "ad_copy": "EPA certified filtration system.",
+    "landing_page_text": "Our system uses a three-stage filter designed to improve water taste. The unit is not certified by the EPA.",
+    "expected": {
+      "EPA certified filtration system": "CONTRADICTED",
+      "Three-stage filter designed to improve water taste": "SUPPORTED"
+    }
+  },
+  {
+    "id": "sample_10",
+    "ad_copy": "Zero credit checks for approval.",
+    "landing_page_text": "A credit check may be required for some financing options. We review applications quickly with a limited set of eligibility criteria.",
+    "expected": {
+      "Zero credit checks for approval": "QUALIFIED",
+      "A credit check may be required for some financing options": "SUPPORTED"
+    }
+  }
+]
